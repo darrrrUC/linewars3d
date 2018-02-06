@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lanewars3d.CSharp", "lanewars3d.CSharp.csproj", "{233B49BC-69EA-1E3B-A3FD-03316AC153A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lanewars3d.CSharp.Editor", "lanewars3d.CSharp.Editor.csproj", "{46FE1B03-9F01-4807-A0C7-F4D330369133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{233B49BC-69EA-1E3B-A3FD-03316AC153A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233B49BC-69EA-1E3B-A3FD-03316AC153A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233B49BC-69EA-1E3B-A3FD-03316AC153A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233B49BC-69EA-1E3B-A3FD-03316AC153A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FE1B03-9F01-4807-A0C7-F4D330369133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FE1B03-9F01-4807-A0C7-F4D330369133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FE1B03-9F01-4807-A0C7-F4D330369133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FE1B03-9F01-4807-A0C7-F4D330369133}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
