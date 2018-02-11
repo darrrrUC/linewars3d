@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 33954175968778070}
   - component: {fileID: 65457401337951130}
   - component: {fileID: 23752091259644972}
-  - component: {fileID: 114407843186326556}
+  - component: {fileID: 114374065848851946}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -210,7 +210,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114407843186326556
+--- !u!114 &114374065848851946
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -218,8 +218,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 1677183887600218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 928b8cf000f608643afb5a591f25d854, type: 3}
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnUnit: {fileID: 1805188752539488, guid: d8aa0f2461a5c5443984da0a8ad275f2, type: 2}
-  _spawnPoint: {fileID: 4976867963190804}
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 21
+    i1: 24
+    i2: 136
+    i3: 9
+    i4: 189
+    i5: 115
+    i6: 75
+    i7: 116
+    i8: 200
+    i9: 205
+    i10: 99
+    i11: 18
+    i12: 124
+    i13: 188
+    i14: 0
+    i15: 227
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

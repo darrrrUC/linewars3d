@@ -288,6 +288,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\RTS_Camera\Scripts\Editor\LayoutHelpers.cs" />
+    <Compile Include="Assets\RTS_Camera\Scripts\Editor\RTS_CameraEditor.cs" />
     <Compile Include="Assets\Scifi\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\Scifi\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
     <Compile Include="Assets\Scifi\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
@@ -324,6 +326,9 @@
     <Compile Include="Assets\Scifi\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\RTS_Camera\Demo\Projectors\Guidelines.txt" />
+    <None Include="Assets\RTS_Camera\Demo\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\RTS_Camera\Demo\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\Scifi\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\Scifi\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\Scifi\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />

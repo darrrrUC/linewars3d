@@ -8,10 +8,21 @@ public class ClickDetection : NetworkBehaviour {
     public GameObject _spawnUnit;
     public Transform _spawnPoint;
 
-	void OnMouseDown()
+    void Update()
     {
-        CmdSpawnUnit();
+        if (!isLocalPlayer)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            CmdSpawnUnit();
+        }
+
     }
+
+
 
     [Command]
     private void CmdSpawnUnit()
