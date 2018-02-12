@@ -331,6 +331,7 @@
     <Compile Include="Assets\Scifi\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Scifi\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scifi\Scripts\DoorFunctions.cs" />
+    <Compile Include="Assets\scripts\camera\CameraAtPlayer.cs" />
     <Compile Include="Assets\scripts\moving\MoveToTarget.cs" />
     <Compile Include="Assets\scripts\moving\PlayerController.cs" />
     <Compile Include="Assets\scripts\OneCamera.cs" />

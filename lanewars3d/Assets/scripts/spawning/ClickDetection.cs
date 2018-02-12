@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 public class ClickDetection : NetworkBehaviour {
 
     public GameObject _spawnUnit;
-    public Transform _spawnPoint;
+    private Transform _spawnPoint;
 
     void Update()
     {
@@ -15,8 +15,9 @@ public class ClickDetection : NetworkBehaviour {
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.T))
         {
+            Debug.Log("Attempting to spawn unit");
             CmdSpawnUnit();
         }
 
@@ -29,5 +30,10 @@ public class ClickDetection : NetworkBehaviour {
     {
         var spawnUnit = Instantiate(_spawnUnit, _spawnPoint.position, Quaternion.identity);
         NetworkServer.Spawn(spawnUnit);
+    }
+
+    public override void OnStartLocalPlayer()
+    {
+        _spawnPoint = GameObject.Find("BuildingSpawn").transform;
     }
 }
